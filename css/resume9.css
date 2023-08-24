@@ -1,0 +1,58 @@
+header {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: optima, sans-serif ;
+}
+ .hero-image {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+    url(Images/AngelLogo2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .hero-text {
+    color: antiquewhite ;
+    text-align: center;
+ }
+
+ .hero-text h1 {
+    font-size: 50px;
+    font-weight: 500;
+ }
+
+ .hero-text p {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 10px;
+ }
+body {
+    margin: 0;
+}
+
+.navbar { 
+    color: white;
+    text-align: center;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0%;
+    width: 100%;
+    background-color: bisque;
+}
+.nav-link {
+    text-decoration: none;
+    color:white;
+    margin: 0 1vw;
+}
+.education {
+    font-family: optima, sans-serif;
+    text-align: center;
+}
