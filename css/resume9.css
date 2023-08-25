@@ -10,9 +10,9 @@ header {
    width:100;
 }
  .hero-image {
-    background-image: linear-gradient(
+    background: linear-gradient(
        #d9c4ec, #d9c4ec ),
-    url(Images/angel.png);
+    url("https://e0.pxfuel.com/wallpapers/675/628/desktop-wallpaper-purple-marble-ink-aesthetic-girly-pink-purple-cute-ink-art.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -36,8 +36,10 @@ header {
     margin: 2px;
  }
  h1 {
+    font-family: 'UnifrakturCook', cursive;
     font-size: 50px;
     font-weight: 300;
+    
  }
 h2 {
     font-weight: 200;
@@ -97,6 +99,11 @@ footer {
     border-style: solid;
     border-color: black;
     border-width: 12.5px;
+}
+.link2 {
+    text-decoration:none;
+    color:white;
+    margin: 0 1vw;
 }
 .form {
     background-image:  #d9c4ec, url(Images/favicon.png);
