@@ -64,14 +64,19 @@ body {
     color:white;
     margin: 0 1vw;
 }
-.skills, .education {
-    border-style: solid;
-    border-width: 10px;
+ .education, .experience {
+   
     margin-top: 15px;
     margin-bottom: 15px;
 
 }
-.eduarticle,  .skillsarticle {
+.skills {
+    border-style: solid;
+    border-width: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.eduarticle,  .skillsarticle, .exarticle {
     font-family: optima, sans-serif;
     text-align: center;
     background: #d9c4ec, url(Images/favicon.png);
@@ -96,6 +101,7 @@ p{
 padding: 20px;
 }
 footer {
+    background-image:  #d9c4ec, url(Images/favicon.png);
     border-style: solid;
     border-color: black;
     border-width: 12.5px;
@@ -106,7 +112,6 @@ footer {
     margin: 0 1vw;
 }
 .form {
-    background-image:  #d9c4ec, url(Images/favicon.png);
     background-color: #d9c4ec;
     padding-top: 10px;
     text-align: center;
