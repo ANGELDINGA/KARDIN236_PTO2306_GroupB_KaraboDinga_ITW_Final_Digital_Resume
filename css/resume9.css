@@ -1,3 +1,6 @@
+*{
+    font-family: optima, sans-serif;
+}
 header {
     margin: 0;
     padding: 0;
@@ -27,18 +30,26 @@ header {
     padding: 40px;
  }
 
- .hero-text h1 {
+ .hero-text h1  {
     font-size: 50px;
-    font-weight: 500;
-    
+    font-weight: 300;
+    margin: 2px;
  }
-
-
+ h1 {
+    font-size: 50px;
+    font-weight: 300;
+ }
+h2 {
+    font-weight: 200;
+}
+h3 {
+    font-weight: 200;
+}
  .hero-text p {
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 20px;
-  padding: 40px;
+  padding: 20px;
     
    
  }
@@ -51,19 +62,24 @@ body {
     color:white;
     margin: 0 1vw;
 }
-.education {
-    font-family: optima, sans-serif;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
+.skills, .education {
     border-style: solid;
     border-width: 10px;
-background: white, url(Images/favicon.png);
-padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.eduarticle,  .skillsarticle {
+    font-family: optima, sans-serif;
+    text-align: center;
+    background: #d9c4ec, url(Images/favicon.png);
+    padding: 20px;
+    margin: 15px;
+    background-color: #d9c4ec;
 }
 img {
     border-style: solid;
-  border-width: 1.5px;
+  border-width: 2.5px;
   border-top: 10%;
   border-bottom: 10%;
   border-color: black;
@@ -77,14 +93,21 @@ img {
 p{
 padding: 20px;
 }
-
 footer {
+    border-style: solid;
+    border-color: black;
+    border-width: 12.5px;
+}
+.form {
     background-image:  #d9c4ec, url(Images/favicon.png);
     background-color: #d9c4ec;
     padding-top: 10px;
     text-align: center;
     font-size: 15px;
     font-family: optima, sans-serif;
+    padding: 20px;
+    margin: 15px;
+
 }
 
 input {
@@ -99,7 +122,7 @@ input {
 }
 #subject {
     background-color: white;
-    width: 60%;
+    width: 57%;
     font-size: 15px;
     padding: 10px 10px;
     border-radius: 10px;
